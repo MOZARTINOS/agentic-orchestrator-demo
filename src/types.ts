@@ -6,7 +6,7 @@
  * orchestrator, agents, tools, governance layer, and the tRPC boundary
  * all speak this same vocabulary.
  *
- * In the production system (Orkestrator AI) these live alongside the
+ * In the production system these live alongside the
  * domain model; here they are deliberately generic so the pattern is
  * legible without any business context.
  */

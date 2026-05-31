@@ -57,7 +57,7 @@ model through `askModel()`, which is where pseudonymization and audit live.
 
 ## How it maps to the real system
 
-| This demo | Orkestrator AI (production) |
+| This demo | Production system |
 |---|---|
 | `src/governance/aiBoundary.ts` | `src/server/ai/pseudonymize.ts` — the **only** file that imports `@anthropic-ai/sdk`; builds aliased bundles, hashes prompts into `app.ai_audit_log`, never stores prompt bodies |
 | `src/agents/tools.ts` (deterministic rules engine) | `src/server/engine/conflicts.ts` — a pure-TS engine that decides hard facts (overload, time-clash, double-book, travel-impossible, …); the model only *explains* them |

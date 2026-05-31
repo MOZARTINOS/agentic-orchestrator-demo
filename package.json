@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Sanitized, public-safe demonstration of a typed agentic-orchestration architecture (extract of the private Orkestrator AI system).",
+  "description": "Sanitized, public-safe demonstration of a typed agentic-orchestration architecture.",
   "scripts": {
     "demo": "tsx src/index.ts",
     "typecheck": "tsc --noEmit"
