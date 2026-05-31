@@ -1,11 +1,5 @@
 # Agentic Orchestrator — Architecture Demo
 
-> **Sanitized demonstration extract of a production system (Orkestrator AI).**
-> It illustrates the architecture and patterns; the production code is private.
-> No production credentials, customer data, proprietary prompts, or business
-> logic are included here. The whole thing runs against a **mock LLM** — no API
-> key required to read, run, or reason about it.
-
 ---
 
 ## What this demonstrates
